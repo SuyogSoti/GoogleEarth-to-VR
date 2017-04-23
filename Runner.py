@@ -31,9 +31,9 @@ def take_pictures(lat, long, radius, number):
         #                                                 +str(num-180)+"h,"
         #                                                 +str(t)+"t,0r")
         webbrowser.open(
-            "https://earth.google.com/web/@" + str(lat + 0.000549450* math.cos(math.radians(num))) + ","
-            + str(long + 0.000549450* math.sin(math.radians(num))) + ","
-            + str(1700 + 0.000549450 * math.sin(math.radians(t))) + "a,0d,35y,"
+            "https://earth.google.com/web/@" + str(lat + 0.0006181318* math.cos(math.radians(num))) + ","
+            + str(long + 0.0006181318* math.sin(math.radians(num))) + ","
+            + str(1700 + 0.0006181318 * math.sin(math.radians(t))) + "a,0d,35y,"
             + str(num-180) + "h,"
             + str(t) + "t,0r")
         time.sleep(10)
